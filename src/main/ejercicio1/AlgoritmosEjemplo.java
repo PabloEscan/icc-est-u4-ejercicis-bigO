@@ -7,6 +7,7 @@ public class AlgoritmosEjemplo {
         for (int n : arr) {
             System.out.print(n + " ");
         }
+        System.out.println("O(n)");
     }
 
     // 2. Búsqueda lineal

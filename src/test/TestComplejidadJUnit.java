@@ -9,16 +9,16 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestComplejidadJUnit {
 
     static String[] respuestasCorrectas = {
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            "O(n)", // imprimirArreglo
+            "O(n)", // busquedaLineal
+            "O(log n)", // busquedaBinaria
+            "O(n)", // factorial
+            "O(2^n)", // fibonacci
+            "O(n^2)", // bubbleSort
+            "O(n log n)", // quickSort
+            "O(n^2)", // sumaMatriz (matriz cuadrada n x n)
+            "O(n)", // encontrarMaximo
+            "O(n)" // potencia recursiva
     };
 
     static String[] nombres = {
